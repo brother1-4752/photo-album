@@ -76,7 +76,7 @@ const StyledOnboarding = styled.div`
 
   .img__container > .onboarding__img {
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
   }
 
