@@ -19,9 +19,9 @@ const PhotoDetailPage = () => {
     <CustomSuspense
       fallback={
         <LogoWrapper>
-          <Logo size="0.5" position={1} step={step} />
-          <Logo size="0.5" position={2} step={step} />
-          <Logo size="0.5" position={3} step={step} />
+          <Logo size="0.6" position={1} step={step} />
+          <Logo size="0.6" position={2} step={step} />
+          <Logo size="0.6" position={3} step={step} />
         </LogoWrapper>
       }
       maxDuration={3500}
@@ -36,6 +36,9 @@ export default PhotoDetailPage;
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100vh;
+  width: 50%;
+  min-width: 160px;
+  max-width: 240px;
 `;

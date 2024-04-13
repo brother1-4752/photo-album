@@ -19,9 +19,9 @@ const PhotoAlbumPage = () => {
     <CustomSuspense
       fallback={
         <LogoWrapper>
-          <Logo size="0.7" position={1} step={step} />
-          <Logo size="0.7" position={2} step={step} />
-          <Logo size="0.7" position={3} step={step} />
+          <Logo size="0.6" position={1} step={step} />
+          <Logo size="0.6" position={2} step={step} />
+          <Logo size="0.6" position={3} step={step} />
         </LogoWrapper>
       }
       maxDuration={3500}
@@ -38,5 +38,7 @@ const LogoWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  width: 15%;
+  width: 50%;
+  min-width: 160px;
+  max-width: 240px;
 `;
