@@ -2,30 +2,31 @@ import {
   MemoryDetailTypes,
   MemoryPreviewCardTypes,
 } from "../../types/Memory/Memory";
-import p_1_1 from "../../p_1_1.jpg";
-import p_1_2 from "../../p_1_2.jpg";
-import p_1_3 from "../../p_1_3.jpg";
-import p_2_1 from "../../p_2_1.jpg";
-import p_2_2 from "../../p_2_2.jpg";
-import p_2_3 from "../../p_2_3.jpg";
-import p_3_1 from "../../p_3_1.jpg";
-import p_3_2 from "../../p_3_2.jpg";
-import p_4_1 from "../../p_4_1.jpg";
-import p_4_2 from "../../p_4_2.jpg";
-import p_4_3 from "../../p_4_3.jpg";
-import p_5_1 from "../../p_5_1.jpg";
-import p_5_2 from "../../p_5_2.jpg";
-import p_5_3 from "../../p_5_3.jpg";
-import p_6_1 from "../../p_6_1.jpg";
-import p_6_2 from "../../p_6_2.jpg";
-import p_6_3 from "../../p_6_3.jpg";
-import p_7_1 from "../../p_7_1.jpg";
-import p_7_2 from "../../p_7_2.jpg";
-import p_8_1 from "../../p_8_1.gif";
-import p_8_2 from "../../p_8_2.jpg";
-import p_8_3 from "../../p_8_3.jpg";
-import p_9_1 from "../../p_9_1.gif";
-import p_9_2 from "../../p_9_2.jpg";
+
+import p_1_1 from "../../images/p_1_1.webp";
+import p_1_2 from "../../images/p_1_2.webp";
+import p_1_3 from "../../images/p_1_3.webp";
+import p_2_1 from "../../images/p_2_1.webp";
+import p_2_2 from "../../images/p_2_2.webp";
+import p_2_3 from "../../images/p_2_3.webp";
+import p_3_1 from "../../images/p_3_1.webp";
+import p_3_2 from "../../images/p_3_2.webp";
+import p_4_1 from "../../images/p_4_1.webp";
+import p_4_2 from "../../images/p_4_2.webp";
+import p_4_3 from "../../images/p_4_3.webp";
+import p_5_1 from "../../images/p_5_1.webp";
+import p_5_2 from "../../images/p_5_2.webp";
+import p_5_3 from "../../images/p_5_3.webp";
+import p_6_1 from "../../images/p_6_1.webp";
+import p_6_2 from "../../images/p_6_2.webp";
+import p_6_3 from "../../images/p_6_3.webp";
+import p_7_1 from "../../images/p_7_1.webp";
+import p_7_2 from "../../images/p_7_2.webp";
+import p_8_1 from "../../images/p_8_1.webp";
+import p_8_2 from "../../images/p_8_2.webp";
+import p_8_3 from "../../images/p_8_3.webp";
+import p_9_1 from "../../images/p_9_1.webp";
+import p_9_2 from "../../images/p_9_2.webp";
 
 export const memoryPreviewCardList: MemoryPreviewCardTypes[] = [
   {

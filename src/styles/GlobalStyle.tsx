@@ -1,6 +1,7 @@
 import { css, keyframes, createGlobalStyle } from "styled-components";
 import PretendardR from "../fonts/Pretendard-Regular.otf";
 import PretendardB from "../fonts/Pretendard-Bold.otf";
+import mainFont from "../fonts/main-font.ttf";
 import reset from "styled-reset";
 
 const layoutCssProps = css`
@@ -36,6 +37,13 @@ const fontFaceCssProps = css`
     src: local("PretendardB"), local("PretendardB");
     font-style: normal;
     src: url(${PretendardB}) format("opentype");
+  }
+
+  @font-face {
+    font-family: "mainFont";
+    src: local("mainFont"), local("mainFont");
+    font-style: normal;
+    src: url(${mainFont}) format("truetype");
   }
 
   body {

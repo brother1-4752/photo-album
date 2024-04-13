@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import createDatingPeriod from "../../utils/createDatingPeriod";
-import carouselBg from "../../carousel.jpg";
+import carouselBg from "../../images/carousel.webp";
 
 const Carousel = () => {
   const result = createDatingPeriod();

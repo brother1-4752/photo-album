@@ -41,5 +41,6 @@ const StyledPolaroid = styled.div<{ photourl: string }>`
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "mainFont";
   }
 `;

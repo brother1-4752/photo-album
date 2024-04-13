@@ -1,7 +1,7 @@
-import ob_1 from "../../ob_1.png";
-import ob_2 from "../../ob_2.png";
-import ob_3 from "../../ob_3.gif";
-import ob_4 from "../../ob_4.png";
+import ob_1 from "../../images/ob_1.webp";
+import ob_2 from "../../images/ob_2.webp";
+import ob_3 from "../../images/ob_3.webp";
+import ob_4 from "../../images/ob_4.webp";
 
 interface OnboardingStepData {
   step: 1 | 2 | 3 | 4;
