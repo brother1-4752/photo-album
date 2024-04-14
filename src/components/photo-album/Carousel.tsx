@@ -6,7 +6,7 @@ const Carousel = () => {
   const result = createDatingPeriod();
 
   return (
-    <StyledCarousel bgurl={carouselBg}>
+    <StyledCarousel $bgurl={carouselBg}>
       <div className="top__text">사랑한지...❤️</div>
       <div className="bottom__text">{result}</div>
     </StyledCarousel>
@@ -15,8 +15,8 @@ const Carousel = () => {
 
 export default Carousel;
 
-const StyledCarousel = styled.div<{ bgurl: string }>`
-  background-image: url(${(props) => props.bgurl});
+const StyledCarousel = styled.div<{ $bgurl: string }>`
+  background-image: url(${(props) => props.$bgurl});
   background-size: cover;
   border-radius: 8px;
   width: 90%;
